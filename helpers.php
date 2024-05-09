@@ -11,7 +11,7 @@ function basePath($path = '')
 }
 
 /*
-Load a view
+Load a page view
 
 @param string $name
 @return void
