@@ -2,6 +2,7 @@
 
 class Router
 {
+    // a protected property is only available in a class and it's subclasses
     protected $routes = [];
 
     public function registerRoute($method, $uri, $controller)
