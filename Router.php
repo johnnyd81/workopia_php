@@ -5,9 +5,17 @@ class Router
     // a protected property is only available in a class and it's subclasses
     protected $routes = [];
 
+    /**
+     * Add a new route
+     *
+     * @param string $method
+     * @param string $uri
+     * @param string $controller
+     * @return void
+     */
     public function registerRoute($method, $uri, $controller)
     {
-        //the [] brackets shows that values are being added to the array
+        //the [] brackets shows that values are being added to the end of the array
         $this->routes[] = [
             'method' => $method,
             'uri' => $uri,

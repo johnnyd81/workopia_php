@@ -17,11 +17,13 @@ Load a page view
 @return void
 
 */
-function loadView($name)
+function loadView($name, $data = [])
 {
     $viewPath = basePath("views/{$name}.view.php");
 
     if (file_exists($viewPath)) {
+        //extracts data as variables to be used
+        extract($data);
         require $viewPath;
     } else {
         echo "View {$viewPath} not found!";
@@ -72,4 +74,15 @@ function inspectAndDie($value)
     echo '<pre>';
     die(var_dump($value));
     echo '</pre>';
+}
+
+/**
+ * format salary
+ * 
+ * @param string $salary
+ * @return string Formatted salary
+ */
+function formatSalary($salary)
+{
+    return '$' . number_format(floatval($salary));
 }
