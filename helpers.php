@@ -20,7 +20,7 @@ Load a page view
 function loadView($name)
 {
     $viewPath = basePath("views/{$name}.view.php");
-
+//conditional to check if path exists
     if (file_exists($viewPath)) {
         require $viewPath;
     } else {
