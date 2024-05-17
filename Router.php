@@ -2,7 +2,7 @@
 
 class Router
 {
-    // a protected property is only available in a class and it's subclasses
+    // a protected property is only available in a class and it's subclasses i.e. classes that extend the Router class
     protected $routes = [];
 
     /**

@@ -20,7 +20,7 @@ Load a page view
 function loadView($name, $data = [])
 {
     $viewPath = basePath("views/{$name}.view.php");
-
+//conditional to check if path exists
     if (file_exists($viewPath)) {
         //extracts data as variables to be used
         extract($data);
