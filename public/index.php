@@ -3,7 +3,7 @@ require '../helpers.php';
 require basePath('Router.php');
 require basePath('Database.php');
 
-// Instantiate the router
+// Instantiate the router by using the new keyword with the Router class
 $router = new Router();
 
 //get the routes
