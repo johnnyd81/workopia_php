@@ -1,4 +1,4 @@
 <?php
 
-//loads the homepage
+//loads the homepage using the loadView helper method
 loadView('home');
