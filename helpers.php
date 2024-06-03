@@ -22,7 +22,7 @@ function loadView($name, $data = [])
     $viewPath = basePath("views/{$name}.view.php");
 //conditional to check if path exists
     if (file_exists($viewPath)) {
-        //extracts data as variables to be used
+        //extracts data as variables to be used in the view
         extract($data);
         require $viewPath;
     } else {
