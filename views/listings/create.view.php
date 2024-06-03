@@ -2,10 +2,10 @@
 <?= loadPartial('navbar'); ?>
 <?= loadPartial('top-banner') ?>
 
-<!-- Post a Job Form Box -->
+<!-- Post a Job Form Box that has to be completed to add a job listing-->
 <section class="flex justify-center items-center mt-20">
     <div class="bg-white p-8 rounded-lg shadow-md w-full md:w-600 mx-6">
-        <h2 class="text-4xl text-center font-bold mb-4">Create Job Listing</h2>
+        <h2 class="text-4xl text-center font-bold mb-4">Create Listing</h2>
         <!-- <div class="message bg-red-100 p-3 my-3">This is an error message.</div>
         <div class="message bg-green-100 p-3 my-3">
           This is a success message.
