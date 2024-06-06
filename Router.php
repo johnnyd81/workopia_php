@@ -5,7 +5,7 @@ class Router
     // a protected property is only available in a class and it's subclasses i.e. classes that extend the Router class
     protected $routes = [];
 
-    //the docblock below defines what a function does, the parameters it needs and what it returns
+    //the docblock below defines what a function does, the parameters it needs and what it returns when it is called
     /**
      * Add a new route
      *
