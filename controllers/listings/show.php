@@ -6,7 +6,7 @@ $db = new Database($config);
 //get id
 $id = $_GET['id'] ?? '';
 
-//makes it safer to prevent sql injections
+//makes it safer to prevent sql injections in the database eg. drop table 
 $params = [
     'id' => $id
 ];
