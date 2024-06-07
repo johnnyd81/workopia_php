@@ -1,5 +1,5 @@
 <?php
-
+//import db.php file that has data to connect to the workopia database
 $config = require basePath('config/db.php');
 
 $db = new Database($config);
