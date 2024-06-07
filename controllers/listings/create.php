@@ -1,4 +1,4 @@
 <?php
 
-//loads the create listing page
+//loads the create listing form page
 loadView('/listings/create');
