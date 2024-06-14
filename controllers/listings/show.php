@@ -1,6 +1,6 @@
 <?php
 
-$config = require basePath("config/db.php");
+$config = require basePath("config/myDB.php");
 $db = new Database($config);
 
 //get id
