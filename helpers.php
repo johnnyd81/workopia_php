@@ -14,6 +14,7 @@ function basePath($path = '')
 Load a page view
 
 @param string $name
+$param array $data
 @return void
 
 */
