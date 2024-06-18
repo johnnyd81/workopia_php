@@ -5,7 +5,7 @@ class Database
     public $conn;
 
     /**
-     * Constructor for Database class
+     * Constructor for the Database class
      * 
      * @param array $config
      */
