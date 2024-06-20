@@ -2,6 +2,7 @@
 
 class Database
 {
+    // public property to connect to the database
     public $conn;
 
     /**
