@@ -1,4 +1,5 @@
 <?php
+// helpers.php contains functions that perform repetetive tasks
 require '../helpers.php';
 require basePath('Router.php');
 require basePath('Database.php');
