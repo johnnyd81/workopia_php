@@ -7,7 +7,7 @@ require basePath('Database.php');
 // Instantiate the router by using the new keyword with the Router class
 $router = new Router();
 
-//get the routes
+//get the routes from routes.php
 $routes = require basePath('routes.php');
 
 //get current URI and HTTP method
