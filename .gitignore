@@ -1,6 +1,6 @@
 /vendor
 /node_modules
-/config/myDB.php
+/config/db.php
 .env
 .vscode
 .DS_Store
