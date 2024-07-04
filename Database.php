@@ -38,7 +38,7 @@ class Database
     public function query($query, $params = [])
     {
         try {
-
+           //create a statement that will contain the query data if it is retrieved successfully
             $sth = $this->conn->prepare($query);
 
             //Bind named params
