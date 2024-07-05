@@ -1,4 +1,5 @@
 <?php
 
 //loads the error page using the loadView helper method located in the root of the application
+//the loadView function takes a view path as an argument i.e. folder and file name
 loadView('error/404');
