@@ -1,4 +1,4 @@
- <!-- ui partial imports -->
+ <!-- ui partial imports needed for the view -->
  <?= loadPartial('head'); ?>
  <?= loadPartial('navbar'); ?>
  <?= loadPartial('top-banner') ?>
