@@ -12,6 +12,7 @@ class Database
      */
     public function __construct($config)
     {
+        //$dsn string is used to create a new PHP database object i.e. PDO
         $dsn = "mysql:host={$config['host']};port={$config['port']};dbname={$config['dbname']}";
 
         // options array specifies the format of the retrieved data i.e. object, associative array etc
