@@ -98,7 +98,7 @@ class Router
                 return;
             }
         }
-       //if no path and method is found the error method is called
+       //if no path and method is found the error method is called and renders the error page
         $this->error();
     }
 }
