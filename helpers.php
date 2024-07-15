@@ -78,7 +78,7 @@ function inspectAndDie($value)
 }
 
 /**
- * format salary
+ * format salary value
  * 
  * @param string $salary
  * @return string Formatted salary
