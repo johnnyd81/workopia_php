@@ -32,7 +32,7 @@ function loadView($name, $data = [])
 }
 
 /*
-Load a partial
+Load a partial i.e. a ui component like a navbar, footer etc.
 
 @param string $name
 @return void
