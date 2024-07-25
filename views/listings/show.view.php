@@ -1,4 +1,4 @@
- <!-- ui partial imports -->
+ <!-- ui partial imports i.e. navbar, banner -->
 <?= loadPartial('head'); ?>
 <?= loadPartial('navbar'); ?>
 <?= loadPartial('showcase-search'); ?>
