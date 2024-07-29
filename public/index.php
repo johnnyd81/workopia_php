@@ -14,5 +14,5 @@ $routes = require basePath('routes.php');
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
-//route the request using the Router instance
+//route the request using the Router instance that was created earlier
 $router->route($uri, $method);
