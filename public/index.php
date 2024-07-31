@@ -1,4 +1,6 @@
 <?php
+//index.php is the entry file for the application
+
 // helpers.php contains functions that perform repetetive tasks i.e. displaying variables etc.
 require '../helpers.php';
 require basePath('Router.php');
