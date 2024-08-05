@@ -9,6 +9,7 @@ class Database
      * Constructor to connect to the database 
      * 
      * @param array $config
+     * @return void
      */
     public function __construct($config)
     {
