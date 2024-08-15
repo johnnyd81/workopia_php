@@ -10,5 +10,4 @@
     </div>
 </section>
 
-//loads the footer partial
 <?= loadPartial('footer'); ?>
