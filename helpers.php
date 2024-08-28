@@ -1,7 +1,7 @@
 <?php
 
 /*  
-Get base path for a file
+Get the base path for a file
 @param string $path
 @return string
 */
