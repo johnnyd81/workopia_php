@@ -13,6 +13,7 @@ $router = new Router();
 $routes = require basePath('routes.php');
 
 //get current URI and HTTP method to use in the router method of the new Router instance
+//by using parse_url method only the path is returned when the argument PHP_URL_PATH is specified
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
