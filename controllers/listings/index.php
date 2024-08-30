@@ -4,6 +4,7 @@
 $config = require basePath("config/myDB.php");
 $db = new Database($config);
 
+//store the available listings in the listings variable
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
 
