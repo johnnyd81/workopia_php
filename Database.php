@@ -23,7 +23,7 @@ class Database
         ];
 
         try {
-            //Create a new PDO instance
+            //Create a new PDO instance to interact with the database
             $this->conn = new PDO($dsn, $config['username'], $config['password'], $options);
         } catch (PDOException $e) {
             // handles an exception if an error occurs
