@@ -50,7 +50,7 @@ function loadPartial($name)
 }
 
 /* 
-Inspect a value(s)
+Inspect a value(s) to check it's contents
 
 @param mixed $value
 @return void
