@@ -3,7 +3,7 @@
 $config = require basePath("config/myDB.php");
 $db = new Database($config);
 
-//get id
+//get id from the url
 $id = $_GET['id'] ?? '';
 
 //makes it safer to prevent sql injections in the database eg. drop table 
