@@ -32,7 +32,7 @@ class Database
     }
 
     /**
-     * Query the database
+     * Query the database using a sql query
      * 
      * @param string $query
      * 
