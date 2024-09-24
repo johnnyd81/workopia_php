@@ -89,7 +89,7 @@ abbr:where([title]) {
 }
 
 /*
-Remove the default font size and weight for headings.
+Remove the default font size and weight for all headings.
 */
 
 h1,
