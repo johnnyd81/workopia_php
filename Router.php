@@ -85,7 +85,7 @@ class Router
     }
 
     /*
-     Route the request according to the uri and the method
+     Route the request according to the uri and the method specified 
      @param string $uri
      @param string $method
      @return void
