@@ -87,5 +87,6 @@ function inspectAndDie($value)
  */
 function formatSalary($salary)
 {
-    return '$' . number_format(floatval($salary));
+    //the number_format() takes the $salary as a float value
+     return '$' . number_format(floatval($salary));
 }
