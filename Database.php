@@ -50,6 +50,7 @@ class Database
                 $sth->bindValue(':' . $param, $value);
             }
 
+            //the $params array can also be used as an argument in the execute method without directly binding it to the $sth variable
             $sth->execute();
             return $sth;
         } catch (PDOException $e) {
