@@ -3,6 +3,8 @@
 
 // helpers.php contains functions that perform repetetive tasks i.e. displaying variables etc.
 require '../helpers.php';
+
+//by requiring helpers.php into the file the basePath method can be used
 require basePath('Router.php');
 require basePath('Database.php');
 
