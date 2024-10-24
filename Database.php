@@ -46,7 +46,7 @@ class Database
            //create a statement that will contain the query data if it is retrieved successfully
             $sth = $this->conn->prepare($query);
 
-            //Bind named params
+            //Bind named params in the query
             foreach ($params as $param => $value) {
                 $sth->bindValue(':' . $param, $value);
             }
