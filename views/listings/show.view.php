@@ -60,6 +60,7 @@
     </a>
 </section>
 
+ <!-- load the bottom banner and the footer component -->
 <?= loadPartial('bottom-banner'); ?>
 
 <?= loadPartial('footer'); ?>
