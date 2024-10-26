@@ -1,3 +1,4 @@
+ <!-- ui partial imports needed for the view i.e. navbar, banner etc. -->
 <?= loadPartial('head'); ?>
 <?= loadPartial('navbar'); ?>
 
