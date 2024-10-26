@@ -51,6 +51,7 @@
             <div class="mb-4">
                 <input type="email" name="email" placeholder="Email Address For Applications" class="w-full px-4 py-2 border rounded focus:outline-none" />
             </div>
+          <!-- submit listing to be added to the database -->
             <button class="w-full bg-green-500 hover:bg-green-600 text-white px-4 py-2 my-3 rounded focus:outline-none">
                 Save
             </button>
