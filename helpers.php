@@ -28,7 +28,7 @@ function loadView($name, $data = [])
         extract($data);
         require $viewPath;
     } else {
-        //print a message if a view cannot be shown
+        //print a message if a view cannot be found
         echo "View {$viewPath} not found!";
     }
 }
