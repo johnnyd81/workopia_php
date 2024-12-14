@@ -1,3 +1,4 @@
+<!-- the loadPartial helper method makes including each partial component easier -->
 <?= loadPartial('head'); ?>
 <?= loadPartial('navbar'); ?>
 <?= loadPartial('showcase-search'); ?>
