@@ -1,4 +1,5 @@
  <!-- ui partial imports needed for the view i.e. navbar, banner etc. -->
+ <!-- the loadPartial helper method simplifies importing each partial -->
 <?= loadPartial('head'); ?>
 <?= loadPartial('navbar'); ?>
 
