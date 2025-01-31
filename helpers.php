@@ -60,7 +60,7 @@ Inspect a value(s) to check it's contents
   */
 function inspect($value)
 {
-    echo '<pre>';
+    echo '<pre>'; // make the output more readable using the '<pre>' tag
     var_dump($value);
     echo '</pre>';
 }
