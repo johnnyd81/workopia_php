@@ -72,7 +72,7 @@ class Router
     }
 
     /*
-    Load the error page if a route can't be found
+    Load the error page when a route cannot be found
     @param int $httpCode
 
     @return void
