@@ -1,7 +1,7 @@
 <?php
 //index.php is the entry file for the application i.e. Router and Database
 
-// helpers.php contains functions that perform repetetive tasks i.e. displaying variables etc.
+// helpers.php contains functions that perform repetetive tasks i.e. displaying variables, getting basepaths etc.
 require '../helpers.php';
 
 //by requiring helpers.php into the file the basePath method can be used
