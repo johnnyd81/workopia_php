@@ -22,7 +22,7 @@ $param array $data
 function loadView($name, $data = [])
 {
     $viewPath = basePath("views/{$name}.view.php");
-//conditional to check if path exists
+//conditional to check if a path exists
     if (file_exists($viewPath)) {
         //extracts data as variables to be used in the specified view in the form of an associative array i.e. $listings['title']
         extract($data);
