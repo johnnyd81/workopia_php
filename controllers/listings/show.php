@@ -12,7 +12,7 @@ $params = [
     'id' => $id
 ];
 
-//get the listing that matches the specific $id 
+//return the listing that matches the specific $id 
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
 loadView('listings/show', [
