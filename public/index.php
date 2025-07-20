@@ -1,5 +1,5 @@
 <?php
-//index.php is the entry file for the application i.e. Router and Database
+//index.php is the entry file for the app i.e. Router and Database
 
 // helpers.php contains functions that perform repetetive tasks i.e. displaying variables, getting basepaths etc.
 require '../helpers.php';
