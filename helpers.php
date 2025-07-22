@@ -12,7 +12,7 @@ function basePath($path = '')
 }
 
 /*
-Load a page view i.e. homepage, listings etc.
+Load a page view i.e. homepage, listings, form etc.
 
 @param string $name
 $param array $data
