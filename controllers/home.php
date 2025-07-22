@@ -1,6 +1,6 @@
 <?php
 
-//import the myDB.php file that has data needed to connect to the custom workopia database
+//import the myDB.php file that has data needed to connect to the custom created workopia database
 $config = require basePath('config/myDB.php');
 
 //create a new database instance by using the Database class and using the $config array as the argument to the method
