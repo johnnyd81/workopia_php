@@ -7,7 +7,7 @@ Get the base path for a specific file
 */
 function basePath($path = '')
 {
-    //return the path as a string that can be required into a specific file
+    //return the path as a string that can be required into a specific file i.e. index.php
     return __DIR__ . '/' . $path;
 }
 
