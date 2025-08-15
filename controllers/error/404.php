@@ -1,5 +1,5 @@
 <?php
 
 //displays the 404 error page using the custom-built loadView method found in the helpers file in the root directory
-//the argument has to be in a string format
+//the argument has to be in a string format i.e. wrapped in quotes
 loadView('error/404');
