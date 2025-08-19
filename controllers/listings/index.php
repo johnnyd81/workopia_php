@@ -2,7 +2,7 @@
 
 //import the myDB.php file that returns the configuration data to connect to the database i.e. the custom workopia database
 $config = require basePath("config/myDB.php");
-$db = new Database($config);
+$db = new Database($config); //create a new database instance
 
 //store the retrieved listings in the listings variable but limit them to 6 listings at each time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
