@@ -6,7 +6,7 @@ $config = require basePath('config/myDB.php');
 //create a new database instance by using the Database class and using the $config array as the argument to the method
 $db = new Database($config);
 
-//fetches all the matching listings in the database but limits them to 6 results at a time
+//fetches all the listings in the database but limits them to 6 results at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
 //this loads the homepage using the custom-built loadView helper method. The available listings that were retrieved are passed in as the second argument
