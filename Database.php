@@ -2,7 +2,7 @@
 
 class Database
 {
-    // public property to create a connection to the custom-built database i.e. workopia
+    // public property to create a connection to the custom-built database i.e. workopia database
     public $conn;
 
     /**
