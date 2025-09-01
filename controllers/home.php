@@ -9,7 +9,7 @@ $db = new Database($config);
 //fetches all the available listings in the database but limits them to 6 results at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
-//this loads the homepage using the custom-built loadView helper method. The available listings that were retrieved are passed in as the second argument
+//the code below loads the homepage using the custom-built loadView helper method. The available listings that were retrieved are passed in as the second argument
 loadView('home', [
     'listings' => $listings
 ]);
