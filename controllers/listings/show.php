@@ -12,7 +12,7 @@ $params = [
     'id' => $id
 ];
 
-//return the correct job listing that matches the specific id 
+//return the correct job listing that matches the unique id 
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
 //load the view using the custom loadView method
