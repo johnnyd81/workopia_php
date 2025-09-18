@@ -1,5 +1,5 @@
 <?php
-//all the required routes
+//all the required routes for the application
 $router->get('/', 'controllers/home.php');
 $router->get('/listings', 'controllers/listings/index.php');
 $router->get('/listings/create', 'controllers/listings/create.php');
