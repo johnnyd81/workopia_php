@@ -7,7 +7,7 @@ $db = new Database($config); //creates a new database instance
 //the $listings variable contains the retrieved job listings but limits them to 6 listings at each time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
-//the method below passes the retrieved job listings into the view (i.e. the user's webpage)
+//the method below passes the retrieved job listings into the view (i.e. the user's webpage view)
 loadView('listings/index', [
     'listings' => $listings
 ]);
