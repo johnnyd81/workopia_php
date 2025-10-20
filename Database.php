@@ -26,7 +26,7 @@ class Database
             //Create a new PDO instance to interact with the database i.e. the workopia database
             $this->conn = new PDO($dsn, $config['username'], $config['password'], $options);
         } catch (PDOException $e) {
-            // handles an exception if an error occurs while connecting to the database
+            // handles an exception if an error occurs while connecting to the local database
             //the method $e->getMessage() returns the error message
             throw new Exception("Database connection failed: {$e->getMessage()}");
         }
