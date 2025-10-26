@@ -79,7 +79,7 @@ class Router
     */
     public function error($httpCode = 404)
     {
-        //sets the response error code i.e. 404, 403 etc.
+        //sets the response error code i.e. 404, 403, 500 etc.
         //then the loadView helper function loads the appropriate error page
         http_response_code($httpCode);
         loadView("error/{$httpCode}");
