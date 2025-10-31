@@ -34,7 +34,7 @@ class Router
     */
     public function get($uri, $controller)
     {
-        //GET route to get a specific webpage
+        //the GET route to get a specific webpage
         $this->registerRoute('GET', $uri, $controller);
     }
 
