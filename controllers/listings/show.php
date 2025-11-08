@@ -4,7 +4,7 @@
 $config = require basePath("config/myDB.php");
 $db = new Database($config);
 
-//get the unique id from the browser url by using the $_GET superglobal that is available to the entire app
+//get the unique id from the browser url by using the $_GET superglobal that is available to the entire workopia app
 $id = $_GET['id'] ?? '';
 
 //the code below makes it safer to prevent unexpected sql injections into the database eg. accidentally dropping a table or incorrect information being added
