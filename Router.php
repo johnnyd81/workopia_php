@@ -96,7 +96,7 @@ class Router
     {
         foreach ($this->routes as $route) {
             //if the $route['uri] and $route['method'] matches with $uri and $method of the browser 
-            //then the relevant $route['controller'] is rendered in the browser
+            //then the relevant $route['controller'] is rendered in the user's browser
             if ($route['uri'] === $uri && $route['method'] === $method) {
                 require basePath($route['controller']);
                 return;
