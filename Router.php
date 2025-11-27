@@ -72,7 +72,7 @@ class Router
     }
 
     /*
-    Load the error page when a specific route cannot be found i.e. 404 
+    Load the error page when a specific route cannot be found i.e. 404, 403 etc. 
     @param int $httpCode
 
     @return void
