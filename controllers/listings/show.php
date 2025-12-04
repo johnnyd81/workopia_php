@@ -15,7 +15,7 @@ $params = [
 //return the correct job listing that matches the correct id needed 
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
-//load the user's view (browser webpage) using the custom-built loadView method stored in the helpers.php file
+//load the user's view (browser webpage) using the custom-built loadView method stored in the helpers.php file in root
 loadView('listings/show', [
     'listing' => $listing
 ]);
