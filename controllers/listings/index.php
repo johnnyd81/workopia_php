@@ -4,7 +4,7 @@
 $config = require basePath("config/myDB.php");
 $db = new Database($config); //creates a new database instance
 
-//the $listings variable contains the retrieved job listings found in the workopia database but limits them to 6 listings
+//the $listings variable contains the retrieved job listings found in the workopia database but limits them to 6 listings at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
 //the loadView method below shows the retrieved job listings that are available in the database into the view (i.e. the user's webpage view)
