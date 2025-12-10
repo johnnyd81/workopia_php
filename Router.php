@@ -6,7 +6,7 @@ class Router
     //by adding it as a property the $routes array can be used anywhere in the Router class 
     protected $routes = [];
 
-    //the docblock below defines what a function does, the parameters it needs and what it returns when it is called i.e. being invoked
+    //the docblock below defines what the function does, the parameters it needs and what it returns when it is called i.e. being invoked
     /**
      * Add a new route
      *
