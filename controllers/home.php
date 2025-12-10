@@ -9,7 +9,7 @@ $db = new Database($config);
 //gets all the available job listings stored in the custom-built workopia database but limits them to 6 results at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
-//the code below loads the homepage using the custom-built loadView helper method. The available listings that are fetched are passed in as the second argument
+//the code below loads the homepage using the custom-built loadView helper method. The available listings that are retrieved are passed in as the second argument
 loadView('home', [
     'listings' => $listings
 ]);
