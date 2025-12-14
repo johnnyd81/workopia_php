@@ -12,7 +12,7 @@ $params = [
     'id' => $id
 ];
 
-//return the correct job listing that matches the correct id needed 
+//return the correct job listing that matches the correct id that is needed 
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
 //load the user's view (browser webpage) using the custom-built loadView method stored in the helpers.php file in the root
