@@ -3,7 +3,7 @@
 //import the myDB.php file that contains data needed to connect to the custom local workopia database for the application
 $config = require basePath('config/myDB.php');
 
-//create a new database instance by using the custom Database class and using the $config array as the only argument needed
+//create a new database instance by using the custom Database class and using the $config array as the only argument
 $db = new Database($config);
 
 //gets all the available job listings stored in the custom-built workopia database but limits them to 6 results at a time
