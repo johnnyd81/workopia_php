@@ -1,6 +1,6 @@
 <?php
 
-//require the myDB.php file to get the configuration details to connect to the custom made local workopia database
+//require the myDB.php file to get the configuration details to connect to the custom built local workopia database
 $config = require basePath("config/myDB.php");
 $db = new Database($config);
 
