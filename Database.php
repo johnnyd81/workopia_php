@@ -43,7 +43,7 @@ class Database
     public function query($query, $params = [])
     {
         try {
-           //create a statement variable i.e. $sth that will contain the query data from the database when it is retrieved successfully
+           //create a statement variable i.e. $sth that will contain the query data (job listings) from the database when it is retrieved successfully
             $sth = $this->conn->prepare($query);
 
             //Bind named params in the query statement
