@@ -16,7 +16,7 @@ class Database
         //$dsn string is used to create a new PHP database object to interact with the custom database i.e. PDO
         $dsn = "mysql:host={$config['host']};port={$config['port']};dbname={$config['dbname']}";
 
-        // options array specifies the format of the retrieved data and error handling i.e. object, associative array etc.
+        // options array specifies the format of the retrieved listing data and error handling i.e. object, associative array etc.
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
