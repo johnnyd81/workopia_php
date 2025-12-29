@@ -18,7 +18,7 @@ class Router
     public function registerRoute($method, $uri, $controller)
     {
         //the [] brackets shows that values are being added to the end of the routes array
-        //each route gets "registered" using the registerRoute method i.e. the GET, POST, PUT and DELETE routes
+        //each route gets "registered" using the custom registerRoute method i.e. the GET, POST, PUT and DELETE routes
         $this->routes[] = [
             'method' => $method,
             'uri' => $uri,
