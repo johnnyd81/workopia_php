@@ -34,7 +34,7 @@ class Router
     */
     public function get($uri, $controller)
     {
-        //the GET route to get a specific webpage to display in the browser
+        //the GET route to get a specific webpage to display in the user's browser
         $this->registerRoute('GET', $uri, $controller);
     }
 
