@@ -1,3 +1,5 @@
+
+
 <?php
 
 /*  
@@ -24,7 +26,7 @@ function loadView($name, $data = [])
     $viewPath = basePath("views/{$name}.view.php");
 //conditional to check if a path exists
     if (file_exists($viewPath)) {
-        //extracts data as variables to be used in the specified view in the form of an associative array i.e. $listings['title']
+        //extracts data as variables to be used in the specific view in the form of an associative array i.e. $listings['title']
         extract($data);
         require $viewPath;
     } else {
