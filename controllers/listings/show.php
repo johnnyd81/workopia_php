@@ -7,7 +7,7 @@ $db = new Database($config); //create a new Database instance
 //get the unique id from the browser url by using the $_GET superglobal that is available to the entire workopia app
 $id = $_GET['id'] ?? '';
 
-//the code below makes it safer to prevent unexpected sql injections into the custom database eg. accidentally dropping a table or incorrect information being added
+//the code below provides protection to prevent unexpected sql injections into the custom database eg. accidentally dropping a table or incorrect information being added
 $params = [
     'id' => $id
 ];
