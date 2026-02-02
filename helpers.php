@@ -45,7 +45,7 @@ Load a ui partial i.e. a ui component like a navbar, footer etc.
 function loadPartial($name)
 {
     $partialPath = basePath("views/partials/{$name}.php");
-    //check if the file is available or exists and then require it into the specific file i.e. load the webpage
+    //check if the file is available or exists and then require it into the specific file i.e. load the specific webpage
     if (file_exists($partialPath)) {
         require $partialPath;
     } else {
