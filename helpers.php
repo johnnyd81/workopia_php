@@ -54,7 +54,7 @@ function loadPartial($name)
 }
 
 /* 
-Inspect a value(s) to check its contents i.e. what is contains
+Inspect a value(s) to check its contents i.e. what it contains
 
 @param mixed $value
 @return void
