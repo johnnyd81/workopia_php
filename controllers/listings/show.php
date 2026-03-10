@@ -2,7 +2,7 @@
 
 //require the myDB.php file to get the configuration details to connect to the custom-built local workopia database
 $config = require basePath("config/myDB.php");
-$db = new Database($config); //create a new Database instance using the custom-made Database class
+$db = new Database($config); //create a new Database instance using the custom-built Database class
 
 //get the unique id from the browser url by using the $_GET superglobal that is available to the entire workopia app
 $id = $_GET['id'] ?? '';
@@ -15,7 +15,7 @@ $params = [
 //return the correct job listing that matches the unique id for the user
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
-//load the user's view (user's webpage) using the custom-made loadView method stored in the helpers.php file in the root of the app
+//load the user's view (user's webpage) using the custom-made loadView method stored in the helpers.php file in the root of the application
 loadView('listings/show', [
     'listing' => $listing
 ]);
