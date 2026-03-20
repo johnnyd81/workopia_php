@@ -33,7 +33,7 @@ class Database
     }
 
     /**
-     * Query the database using a sql query
+     * Query the custom database using a sql query
      * 
      * @param string $query
      * 
