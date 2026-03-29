@@ -2,7 +2,7 @@
 
 class Router
 {
-    // a protected property is only available in a specific class and it's subclasses i.e. classes that extend the parent class
+    // a protected property is only available in a specific class and it's subclasses i.e. classes that extend the parent class (or superclass)
     //by adding it as a property the $routes array can be used anywhere in the Router class 
     protected $routes = [];
 
