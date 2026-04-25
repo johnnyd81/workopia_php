@@ -1,7 +1,7 @@
 <?php
 
 //import the myDB.php file that returns the configuration data to connect to the custom-built local workopia database
-$db = new Database($config); //this creates a new database instance using the custom-built Database class
+$db = new Database($config); //this creates a new database instance using the custom-made Database class
 
 //the $listings variable contains the retrieved job listings found in the custom-made workopia database but limits them to 6 listings at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
