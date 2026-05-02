@@ -23,7 +23,7 @@ class Database
         ];
 
         try {
-            //Create a new PDO instance to interact with the custom-made local workopia database
+            //Create a new PDO instance to interact with the custom-built local workopia database
             $this->conn = new PDO($dsn, $config['username'], $config['password'], $options);
         } catch (PDOException $e) {
             // handles an exception if an error occurs while connecting to the custom local database
@@ -55,7 +55,7 @@ class Database
             $sth->execute();
             return $sth;
         } catch (PDOException $e) {
-            //an Exception will be thrown if an error occurs at any point during the execution of the custom-made query method
+            //an Exception will be thrown if an error occurs at any point during the execution of the custom query method
             throw new Exception("Query failed to execute: {$e->getMessage()}");
         }
     }
