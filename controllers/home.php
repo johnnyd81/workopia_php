@@ -6,7 +6,7 @@ $config = require basePath('config/myDB.php');//the custom basePath method
 //create a new database instance by using the custom Database class and using the imported $config array as the only argument to the custom-made Database class
 $db = new Database($config);
 
-//gets all the available job listings stored in the custom-made workopia database but limits them to 6 results at a time
+//gets all the available job listings stored in the custom-made workopia database but limits them to 6 results per time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
 //the code below shows the main homepage using the custom-made loadView helper method. The available listings are then used in the method
