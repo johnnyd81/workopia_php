@@ -68,7 +68,7 @@ function inspect($value)
 }
 
 /* 
-Inspect a value(s) and die i.e. end the current script 
+Inspect a value(s) and die i.e. stop the current script 
 
 @param mixed $value
 @return void
