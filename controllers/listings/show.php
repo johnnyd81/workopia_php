@@ -12,7 +12,7 @@ $params = [
     'id' => $id
 ];
 
-//return the correct job listing that matches the unique id in the custom database
+//return the correct job-listing that matches the unique id in the custom database
 $listing = $db->query('SELECT * FROM listings WHERE id = :id', $params)->fetch();
 
 //load the user's webpage (user's web browser) using the custom-made loadView method stored in the helpers file in the root of the application
