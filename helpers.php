@@ -3,7 +3,7 @@
 <?php
 
 /*  
-Get the base "path" for a specific file i.e. exact route to the file
+Get the base "path" for a specific file i.e. exact file route to the file
 @param string $path
 @return string
 */
