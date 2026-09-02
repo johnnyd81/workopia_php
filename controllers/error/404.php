@@ -1,5 +1,5 @@
 <?php
 
-//this file contains the 404 error page using the custom-made loadView helper method found in the helpers.php file in the application's root
-//the argument in the loadView method shown below has to be formatted in a string format i.e. characters, numbers, and symbols placed between single or double quotes
+//this file contains the 404 error page using the custom built loadView helper method found in the helpers.php file in the application's root
+//the argument in the loadView method shown below has to be formatted in a string i.e. characters, numbers, and symbols placed between single or double quotes
 loadView('error/404');
