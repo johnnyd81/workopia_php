@@ -1,5 +1,5 @@
 <?php
 
 //this file has the job create form that's used to make a brand new job listing to add into the custom-designed local workopia database
-//the custom-built loadView method is a helper method that was created to display user data for each unique user
+//the custom-built loadView method is a helper method that was created to display user specific data
 loadView('/listings/create');
