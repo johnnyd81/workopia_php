@@ -6,7 +6,7 @@ $db = new Database($config); //this line creates a new database instance with th
 //the $listings variable contains the fetched available job listings left in the custom-designed workopia database but limits them to 6 listings at a time
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
-//the loadView method shown below shows the available job listings in the custom-designed database
+//the loadView method shown below shows the available job listings in the custom-designed database for the app
 loadView('listings/index', [
     'listings' => $listings
 ]);
