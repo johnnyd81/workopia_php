@@ -2,12 +2,12 @@
 
 //require the myDB.php file to get the configuration details to properly connect to the custom-made local workopia database
 $config = require basePath("config/myDB.php");
-$db = new Database($config); //create a new Database instance using the Database class created for this purpose
+$db = new Database($config); //create a new Database instance using the Database class
 
 //get the unique id from the browser's url by using the $_GET superglobal that is available to the entire workopia application
 $id = $_GET['id'] ?? '';
 
-//the code below adds database protection to prevent unexpected sql injection attacks into the custom database eg. changing data in the database
+//the code below adds database protection to prevent unexpected sql injection attacks into the custom database eg. changing sensitive data in the database
 $params = [
     'id' => $id
 ];
