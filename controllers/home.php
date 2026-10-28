@@ -1,12 +1,12 @@
 <?php
 
-//import the myDB.php file that has the required configuration data to connect to the custom-designed local workopia database for the application
+//import the myDB.php file that has the required configuration data to connect to the custom local workopia database for the application
 $config = require basePath('config/myDB.php');//the custom created basePath method from the app's helpers.php file
 
-//create a new database instance by using the custom Database class and using the imported $config array as the only argument to the custom-designed Database class
+//create a new database instance by using the custom Database class and using the imported $config array as the only argument to the custom Database class
 $db = new Database($config);
 
-//fetches all the created job-listings found in the custom-designed local workopia database but limits it to 6 job results for each request
+//fetches all the available job-listings found in the custom-designed local workopia database but limits it to 6 job results for each request
 $listings = $db->query('SELECT * FROM listings LIMIT 6')->fetchAll();
 
 //the code below shows the main homepage using the custom-made loadView helper method. The available jobs are then added to the method as the second argument
