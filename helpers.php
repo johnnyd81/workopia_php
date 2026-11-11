@@ -14,7 +14,7 @@ function basePath($path = '')
 }
 
 /*
-Load a page view to the webpagei.e. homepage, listings, job listing form etc.
+Load a page view to the webpage i.e. homepage, listings, job listing form etc.
 
 @param string $name
 $param array $data
@@ -24,7 +24,7 @@ $param array $data
 function loadView($name, $data = [])
 {
     $viewPath = basePath("views/{$name}.view.php");
-//conditional to check if a path exists
+//conditional to check if a path is available
     if (file_exists($viewPath)) {
         //extracts data as variables to be used in the specific view in the form of an associative array i.e. $listings['title']
         extract($data);
